@@ -1,0 +1,22 @@
+.Relatedproducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.Relatedproducts hr {
+    width: 150px;
+    height: 5px;
+   background-color: purple;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.RelatedItems {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

@@ -1,0 +1,55 @@
+.Offer {
+    display: flex;
+    width: 65%;
+    height: 35vmax;
+    margin: auto;
+    margin-top: 3vmax;
+    margin-bottom: 7vmax;
+    background: linear-gradient(180deg, pink, white);
+}
+
+.left {
+    flex: 1;
+    
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 6vmax;
+
+}
+
+.left h2 {
+    font-size: 2.5vmax;
+}
+
+.left p {
+    font-size: 1.5vmax;
+}
+
+.left button {
+    background-color: red;
+    width: 14vmax;
+    height: 3vmax;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin-top: 2.7vmax;
+    font-size: 1.2vmax;
+    border: none;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    width: 50%;
+    
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vmax;
+}
+.right img{
+    height: 100%;
+    width: 70%;
+}

@@ -1,0 +1,84 @@
+.Cartitemformat{
+    
+    padding: 100px;
+}
+.Cartitemformat hr{
+    height: 1px;
+    background-color: grey;
+    margin-top: 15px;
+}
+.maincartformat{
+    display: grid;
+    grid-template-columns: 0.75fr 2fr 1fr 1fr 1fr 1fr ;
+    justify-content: center;
+}
+.actulitems{
+    display: grid;
+    grid-template-columns: 0.75fr 2fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.itemimage{
+    width: 70px;
+    height: 70px;
+}
+.removeicon{
+    height: 30px;
+    width: 30px;
+}
+.actulitems button{
+    height: 30px;
+    width: 50px;
+}
+.actulitems hr{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+}
+.carttotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+}
+.carttotaldata h1{
+    margin-bottom: 20px;
+}
+.carttotalitems{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+.carttotaldata hr{
+    margin-top: 5px;
+    background-color: grey;
+    width: 400px;
+}
+.carttotaldata button{
+    margin-top: 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    height: 30px;
+    border: none;
+
+}
+.promocode p{
+    margin-bottom: 15px;
+}
+.promocode input{
+    width: 250px;
+    height: 20px;
+    
+}
+.promocode button{
+    background-color: black;
+    width: 80px;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    
+}

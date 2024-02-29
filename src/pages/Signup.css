@@ -1,0 +1,54 @@
+.main{
+    width: 100%;
+    height: 80vh;
+    background-color: pink;
+    padding-top: 60px;
+    
+}
+.maincontainer{
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    padding: 60px;    
+    gap: 30px;
+    background-color: white;
+}
+.maincontainer h1{
+    margin-bottom: 20px;
+    
+}
+.feilds{
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+  
+}
+.feilds input{
+    height: 30px;
+}
+.maincontainer button{
+    background-color: red;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    color: antiquewhite;
+    margin-bottom: 10px;
+   
+
+}
+.maincontainer p span{
+    color: red;
+    cursor: pointer;
+    
+    
+}
+.checkbox{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+
+}

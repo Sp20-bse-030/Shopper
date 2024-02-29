@@ -1,0 +1,41 @@
+.newsletter{
+    height: 10vmax;
+    margin: auto;
+    display: flex;
+    margin: 9vmax 9vmax 9vmax 9vmax;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, pink, white);
+    padding: 6vmax 6vmax 6vmax 6vmax;
+    gap: 2.2vmax;
+}
+.newsletter h1{
+    font-size: 2.5vmax;
+}
+.newsletter p{
+    font-size: 1.2vmax;
+}
+.newsletterbutton{
+    display: flex;
+    flex-direction: row;
+    gap: 8vmax;
+    
+}
+.newsletterbutton input{
+    background-color: white;
+    border: none;
+    border-radius: 2vmax;
+    width: 25vmax;
+    padding: 1vmax 1vmax 1vmax 2vmax;
+    font-size: 1.1vmax;
+}
+.newsletterbutton button{
+    background-color: black;
+    height: 90%;
+    width: 25%;
+    border-radius: 3vmax;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1vmax;
+}

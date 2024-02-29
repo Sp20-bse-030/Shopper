@@ -1,0 +1,29 @@
+.Descriptionbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+.Descriptionbutton{
+    display: flex;
+    flex-direction: row;
+    
+}
+.Descriptionbutton div{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+
+}
+.descriptiondetails{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    border: 1px solid grey;
+    padding: 40px;
+    gap: 20px;
+}

@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4vmax;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    height: 20%;
+    width: 20%;
+}
+.logo h1{
+    font-size: 2.5vmax;
+}
+.footerlist ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2vmax;
+    cursor: pointer;
+
+}
+.footerlist ul li{
+    font-size: 1.5vmax;
+}
+.social{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 3vmax;
+    justify-content: center;
+    margin-left: 5%;
+   
+}
+.social img{
+    height: 5vmax;
+    width: 5vmax;
+    cursor: pointer;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.copyright hr{
+    height: 3px;
+    width: 100%;
+    background-color: black;
+}
+
